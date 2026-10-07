@@ -122,7 +122,7 @@ function App() {
         <header className="topbar">
           <div className="channel-title">
             <button className="mobile-menu" onClick={() => setMobileSidebar(!mobileSidebar)}><PanelLeftClose size={18}/></button>
-            <current.icon size={19}/>
+            <current[1] size={19}/>
             <strong>{activeChannel}</strong>
             <span className="divider" />
             <span className="topic">{isSpecial ? "Project workspace" : "Build together. Ship better."}</span>
